@@ -1,0 +1,75 @@
+.chat-container {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  text-align: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.message-bubble {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 15px;
+  max-width: 80%;
+}
+
+.message-bubble.bot {
+  background-color: #e0bbff;
+  color: #4b0082;
+  text-align: left;
+}
+
+.message-bubble.user {
+  background-color: #7f00ff;
+  color: white;
+  text-align: right;
+  margin-left: auto;
+}
+
+.action-buttons {
+  margin-top: 10px;
+}
+
+.action-btn {
+  margin-right: 5px;
+}
+
+.chat-body {
+  margin-bottom: 20px;
+}
+
+.chat-input {
+  border-top: 1px solid #ccc;
+}
+
+.chat-footer {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.message-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.message-actions button {
+  margin-right: 10px;
+  color: #e9e48f;
+  /* Cream color */
+  font-size: 0.8rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.message-actions button:hover {
+  color: #ddbd89;
+  /* Lighter cream on hover */
+  text-decoration: underline;
+}
